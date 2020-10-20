@@ -1,12 +1,12 @@
 
 application:
-  name: angular-example
-  project: simple-test
+  name: ngx-uploader
+  project: ngx-uploader
   cloud_region: aws/eu-west-3
   publicly_accessible: true
 routers:
   - name: main
     routes:
-      - application_name: angular-sample-app
+      - application_name: ngx-uploader
         paths:
           - /*
